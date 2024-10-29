@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# FrontEnd Development Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This quiz application is a simple and interactive way to test your knowledge across various topics. Users can navigate through a series of questions, select answers, and receive immediate feedback on their responses. The application also features a timer that counts down from five minutes for each question, adding an element of challenge and urgency to the quiz experience.
 
-## Available Scripts
+### Features
+1. Dynamic Questions: The quiz presents a set of multiple-choice questions with images for a visually engaging experience.
+2. Timer: A countdown timer is displayed for each question, allowing users 5 minutes to answer.
+3. Progress Tracking: Users can see their current question number and progress through the quiz.
+4. Immediate Feedback: Users receive instant feedback on their answers, with indications of whether they are correct or incorrect.
+5. Navigation Buttons: Users can easily navigate to the previous and next questions.
 
-In the project directory, you can run:
+### Technologies Used
+1. React: The application is built using React for a seamless user experience.
+2. CSS: Custom styles are applied for a clean and modern look.
 
-### `npm start`
+### How It Works
+1. State Management:The application uses React's useState and useEffect hooks to manage the current question, selected option, progress, and timer.
+2. Question Handling: Each question is stored in an array, allowing the app to dynamically render questions and options.
+3. Answer Validation: Users can select an answer, and upon clicking the "Check Answer" button, they receive feedback on their choice.
+4. Timer Functionality: A countdown timer is initiated for each question, resetting when the user navigates to a new question. The timer decreases every second, and when it reaches zero, the user can no longer submit their answer.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Setup Instructions
+To run the application locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### 1. Clone the Repository:
+Command: git clone https://github.com/abhishekpu01/ReactQuiz.git
 
-### `npm test`
+#### 2. Navigate to the Project Directory:
+Command: cd ReactQuiz
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### 3. Install Dependencies:
+Command: npm install
 
-### `npm run build`
+#### 4. Run the application
+Command: npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### 5. Access the App:
+Open your web browser and go to (http://localhost:3000).
